@@ -1,3 +1,6 @@
 img {
     margin: -3px;
 }
+ul {
+    list-style-type: disc;
+}
