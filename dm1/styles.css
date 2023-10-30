@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 * {
     text-align: center;
     color: white ;
@@ -17,4 +19,7 @@ img {
 ul {
     font-family: 'Times New Roman', Times, serif;
     list-style-type: disc;
+}
+.title {
+    font-family: 'Nosifer', sans-serif;
 }
