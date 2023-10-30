@@ -16,6 +16,14 @@ h1, a {
 img {
     margin: -3px;
 }
+video {
+    width: 800px;
+    height: 450px;
+}
+iframe {
+    width: 800px;
+    height: 450px;
+}
 ul {
     font-family: 'Times New Roman', Times, serif;
     list-style-type: disc;
