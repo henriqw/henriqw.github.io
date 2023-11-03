@@ -13,8 +13,11 @@ h1{
  background-image: radial-gradient(white 2%, yellow, black 90%);
  color: black;
 }
-a {
-    padding: 80px;
+a:not(.download) {
+    padding: 200px;
+    margin: 60px;
+    font-size: 60px;
+    color: black;
 }
 img {
     margin: -3px;

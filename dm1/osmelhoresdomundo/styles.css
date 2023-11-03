@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(13, 9, 37);
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+.title {
+ font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+ font-size: x-large;
+}
+
+img {
+    padding: 20px;
+    height: 360px;
+    width: 640px;
+}
