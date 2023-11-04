@@ -1,7 +1,7 @@
 body {
     background-color: rgb(13, 9, 37);
     color: whitesmoke;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 
 }
@@ -17,4 +17,9 @@ img {
     padding: 20px;
     height: 360px;
     width: 640px;
+}
+
+.video {
+    height: 450;
+    width: 800;
 }
