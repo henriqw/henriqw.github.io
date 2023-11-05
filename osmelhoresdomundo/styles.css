@@ -3,23 +3,32 @@ body {
     color: whitesmoke;
     padding: 10px;
     text-align: center;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
 }
 
 
 .title {
  font-family: 'Courier New', Courier, monospace;
- text-align: center;
- font-size: x-large;
+ font-size: xxx-large;
 }
 
-img {
+.thumb {
     padding: 20px;
     height: 360px;
     width: 640px;
 }
 
-.video {
-    height: 450;
-    width: 800;
+iframe {
+    height: 450px;
+    width: 800px;
+    margin: 20px;
+}
+img {
+    height: 64px;
+    width: 64px;
+}
+.voltar {
+    filter: invert(100%);
+    padding: 40px;
 }
