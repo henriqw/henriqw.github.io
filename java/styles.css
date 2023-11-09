@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "2P";
+    src: url("2P.ttf") format(truetype);
+}
+* {
+ text-align: center;
+ text-indent: 20px;
+ font-family: '2P', Courier, monospace;
+ font-size: 16px;
+}
+div > button {
+    width: 200px;
+    height: 102px;
+}
+button::after{
+    content: "<- Aqui";
+}
+button::before {
+ content: "Aqui ->";
+ color: black;
+}
+p > span {
+    display: none;
+}
+p:hover > span {
+    display: block;
+    background-color: blue;
+}

@@ -1,0 +1,113 @@
+:root {
+    --TitleColor: linear-gradient(180deg, green, white);
+    --NavColor: #2e9e2e;
+    --MainColor: radial-gradient( white 1%, wheat 99%);
+    --SectionColor: dimgray;
+    --ArticleColor:  lightgrey;
+    --FooterColor: black;
+}
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: 0.2s;
+}
+
+
+@font-face {
+    font-family: "2P";
+    src: url("2P.ttf") format(truetype);
+}
+h1 {
+    font-family: "2P"
+}
+body{
+    background-color: white;
+    margin: auto;
+
+}
+header {
+    padding-bottom: 16px;
+}
+#title{
+    display: block;
+    text-align: center;
+    font: 4vw "2P";
+    background-image: var(--TitleColor);
+    text-shadow: 0 0 3vw white;
+    padding-top: 20px;
+    height: 4vw;
+}
+.container{
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+}
+nav {
+    max-width: 4000px;
+    background-color: var(--NavColor);
+    box-shadow: 4px 4px 16px ;
+    border-radius: 20px 0px;
+    transition: 1s;
+    margin: 20px;
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 1vw;
+    text-align: center;
+    font: 32px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 18%;
+}
+.nav-link:hover{
+    background-color: yellow;
+    
+}
+main {
+    background-image: var(--MainColor);
+    padding: 2vw;
+    margin: 2vw 4vw;
+    border-radius: 40px;
+}
+#title2 {
+    padding: 0.5vw 4vw;
+    margin: 0vw;
+    font-size: 4vw;
+}
+section {
+  background-color: var(--SectionColor);
+  padding: 0.3vw 0.3vw;
+  margin: 2vw 4vw;
+  box-shadow: 4px 4px 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    padding: 0vw 4vw;
+    font-size: 24px;
+}
+article {
+    background-color: var(--ArticleColor);
+    padding: 2vw;
+}
+footer {
+    text-align: center;
+    background-color: var(--FooterColor);
+    color: white;
+    padding: 1vw;
+}
+aside {
+    text-align: center;
+    font-weight: bold;
+    margin: 1vw;
+    font-size: 1vw;
+}
+p {
+    margin: 0px;
+    font-size: 16px;
+}
+hr {
+    margin: 2vw;
+}
+#fim{
+    font-size: 4vw;
+}

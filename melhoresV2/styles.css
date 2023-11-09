@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(13, 9, 37);
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin:auto;
+}
+.title {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: xxx-large;
+}
+
+.thumb {
+    display: block;
+    margin: 1vw 1vw;
+    padding: 1vw 1vw;
+    height: 135px;
+    width: 240px;
+}
+
+iframe {
+    height: 600px;
+    width: 800px;
+    float: right;
+}
+img {
+    height: 64px;
+    width: 64px;
+}
+.voltar {
+    filter: invert(100%);
+    padding: 40px;
+}
+a:visited {
+    color:whitesmoke;
+    text-decoration: none;
+  }
+ a:hover {
+    color:red;
+    text-decoration: none;
+ } 
+ /*   height: 630px;
+    width: 1120px; 8*/
