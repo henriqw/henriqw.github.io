@@ -1,16 +1,18 @@
 :root {
     --TitleColor: linear-gradient(180deg, green, white);
-    --NavColor: #2e9e2e;
-    --MainColor: radial-gradient( white 1%, wheat 99%);
+    --MainColor: radial-gradient( white .5%, #37c437 99.5%);
+    --SecondColor: #2e9e2e;
     --SectionColor: dimgray;
     --ArticleColor:  lightgrey;
     --FooterColor: black;
+    --BoxShadow: 4px 4px 16px;
 }
 
 * {
     margin-top: 0;
     margin-bottom: 0;
     transition: 0.2s;
+    line-height: 2em;
 }
 
 
@@ -38,6 +40,9 @@ header {
     padding-top: 20px;
     height: 4vw;
 }
+#title:hover{
+ cursor: progress;
+}
 .container{
     max-width: 1200px;
     min-width: 320px;
@@ -45,8 +50,8 @@ header {
 }
 nav {
     max-width: 4000px;
-    background-color: var(--NavColor);
-    box-shadow: 4px 4px 16px ;
+    background-image: var(--MainColor);
+    box-shadow: var(--BoxShadow);
     border-radius: 20px 0px;
     transition: 1s;
     margin: 20px;
@@ -78,7 +83,7 @@ section {
   background-color: var(--SectionColor);
   padding: 0.3vw 0.3vw;
   margin: 2vw 4vw;
-  box-shadow: 4px 4px 16px;
+  box-shadow: var(--BoxShadow);
   font-family: 'Courier New', Courier, monospace;
 }
 h2 {
@@ -88,6 +93,21 @@ h2 {
 article {
     background-color: var(--ArticleColor);
     padding: 2vw;
+}
+.video {
+    background-color: var(--SecondColor);
+    box-shadow: var(--BoxShadow);
+    margin: 8px auto;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 footer {
     text-align: center;
@@ -99,7 +119,7 @@ aside {
     text-align: center;
     font-weight: bold;
     margin: 1vw;
-    font-size: 1vw;
+    font-size: 16px;
 }
 p {
     margin: 0px;

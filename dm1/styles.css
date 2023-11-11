@@ -6,6 +6,7 @@ body {
     background-image: linear-gradient(360deg, black, rgb(15, 15, 15));
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
+    max-width: 1000px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -14,7 +15,7 @@ h1{
 }
 .button {
     display: inline-block;
-    font-size: 4vw;
+    font-size: 3vw;
     color: black;
     width: 25%;
     outline: 2px solid white;
@@ -24,24 +25,24 @@ h1{
 }
 img:not(.button){
     margin: -3px;
+    max-width: 1000px;
 }
-video {
-    width: 800px;
-    height: 450px;
-}
-iframe {
-    width: 800px;
+video, iframe{
+   width: 400px;
     height: 450px;
 }
 ul {
     font-family: 'Times New Roman', Times, serif;
-    list-style-type: disc;
+    list-style-type: "✔️";
 }
 .title {
     font-family: 'Nosifer', sans-serif;
 }
 table {
     background-color: blue;
+    overflow-x: auto;
+    min-width: 400px;
+    max-width: 900px;
 }
 table, th, td {
     margin-left: auto;
@@ -49,7 +50,8 @@ table, th, td {
     border: 1px outset rgb(255, 255, 255);
     border-radius: 100px;
     border-spacing: 10px;
-    width: 200px;
+    min-width: 100px;
+    max-width: 235px;
 }
 tr:nth-child(even) {
     background-color: rgba(150, 212, 212, 0.4);
