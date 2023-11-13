@@ -1,12 +1,13 @@
 * {
     text-align: center;
     color: white ;
+    text-shadow: 2px 2px rgba(255, 255, 0, 0.425) ;
 }
 body {
     background-image: linear-gradient(360deg, black, rgb(15, 15, 15));
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -23,6 +24,7 @@ h1{
     padding: 10vw 3vw;
     text-align: center;
 }
+
 img:not(.button){
     margin: -3px;
     max-width: 1000px;
@@ -31,9 +33,10 @@ video, iframe{
    width: 400px;
     height: 450px;
 }
-ul {
+ul:not(.nav-holder) {
     font-family: 'Times New Roman', Times, serif;
     list-style-type: "✔️";
+    columns: 3;
 }
 .title {
     font-family: 'Nosifer', sans-serif;
@@ -50,23 +53,25 @@ table, th, td {
     border: 1px outset rgb(255, 255, 255);
     border-radius: 100px;
     border-spacing: 10px;
+    border-collapse: collapse;
     min-width: 100px;
     max-width: 235px;
 }
 tr:nth-child(even) {
-    background-color: rgba(150, 212, 212, 0.4);
+    background-color: #96d4d423
   }
   
   th:nth-child(even),td:nth-child(even) {
-    background-color: rgba(150, 212, 212, 0.4);
+    background-color: #96d4d425
   }
-tr:hover {background-color: rgb(255, 0, 0);}
+td:hover, th:hover, tr:hover, col:hover {background-color: rgb(255, 0, 0);}
 .nav-holder {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: yellow;
+  z-index: -1;
 }
 .nav {
     float: left;
