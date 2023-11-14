@@ -10,13 +10,12 @@
 
 }
 
-* {
+ * {
     margin-top: 0;
     margin-bottom: 0;
     transition: 0.2s;
     line-height: 2em;
     box-sizing: border-box;
-    z-index: inherit;
     position: relative;
 }
 
@@ -31,6 +30,7 @@ h1 {
 body{
     background-color: white;
     margin: auto;
+    position: relative;
 }
 header {
     padding-bottom: 5vw;
@@ -61,7 +61,7 @@ nav {
     margin: 20px;
     text-align: center;
     z-index: 1;
-    position: static;
+    position: relative;
 }
 .nav-link {
     display: inline-block;
@@ -77,8 +77,6 @@ nav {
 #main{
     position: relative;
     bottom: 5.9vw;
-    z-index: -1;
-    padding-bottom: -800px;
 }
 main {
     background-image: var(--MainColor);
@@ -117,13 +115,14 @@ article {
     padding-bottom: 50%;
     position: relative;
 }
+
 iframe {
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
-}
+} 
 footer {
     text-align: center;
     background-color: var(--FooterColor);
@@ -142,7 +141,7 @@ p {
 }
 hr {
     margin: 2vw;
-    z-index: -2;
+    z-index: -1;
 }
 #fim{
     font-size: 4vw;
@@ -151,7 +150,7 @@ hr {
     content: "";
     clear: both;
     display: table;
-  }
-  li {
+}
+li {
     display: inline;
-  }
+}
