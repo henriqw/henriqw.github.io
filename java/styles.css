@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "2P";
-    src: url("2P.ttf") format(truetype);
+    font-family: '2P';
+    src: url('2P.ttf') format(truetype);
 }
 * {
  text-align: center;
@@ -13,10 +13,10 @@ div > button {
     height: 102px;
 }
 button::after{
-    content: "<- Aqui";
+    content: '<- Aqui';
 }
 button::before {
- content: "Aqui ->";
+ content: 'Aqui ->';
  color: black;
 }
 p > span {

@@ -6,7 +6,7 @@
     --ArticleColor:  lightgrey;
     --FooterColor: black;
     --BoxShadow: 4px 4px 16px;
-    --MainFont: "2P";
+    --MainFont: '2P';
 
 }
 
@@ -21,11 +21,11 @@
 
 
 @font-face {
-    font-family: "2P";
-    src: url("2P.ttf") format(truetype);
+    font-family: '2P';
+    src: url('2P.ttf') format(truetype);
 }
 h1 {
-    font-family: "2P"
+    font-family: '2P'
 }
 body{
     background-color: white;
@@ -38,7 +38,7 @@ header {
 #title{
     display: block;
     text-align: center;
-    font: 4vw "2P";
+    font: 4vw '2P';
     background-image: var(--TitleColor);
     text-shadow: 0 0 3vw white;
     padding-top: 3vw;
@@ -147,7 +147,7 @@ hr {
     font-size: 4vw;
 }
 .clearfix::after {
-    content: "";
+    content: '';
     clear: both;
     display: table;
 }
