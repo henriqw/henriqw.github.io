@@ -1,3 +1,11 @@
+:root{
+    --Border: solid white;
+    --Gradient: radial-gradient(brown, rgb(13, 9, 37));
+}
+* {
+    position: relative;
+    border-radius: 40px;
+}
 body {
     background-color: rgb(13, 9, 37);
     color: whitesmoke;
@@ -11,35 +19,22 @@ body {
  font-family: 'Courier New', Courier, monospace;
  font-size: xxx-large;
 }
-
 .thumb {
     display: block;
-    margin: 1vw 1vw;
-    padding: 1vw 1vw;
-    height: 135px;
-    width: 240px;
+    margin: 0.2vw 0.2vw 0.2vw 4vw;
+    padding: 0.5vw;
+    height: 168px;
+    width: 288px;
+    border: var(--Border);
+    float: left;
+    background-image: var(--Gradient);
 }
-
 iframe {
-    height: 600px;
-    width: 800px;
+    padding: 10px 80px;
+    margin-right: 4vw;
+    height: 800px;
+    width: 1200px;
+    border: var(--Border);
     float: right;
+    background-image: var(--Gradient);
 }
-img {
-    height: 64px;
-    width: 64px;
-}
-.voltar {
-    filter: invert(100%);
-    padding: 40px;
-}
-a:visited {
-    color:whitesmoke;
-    text-decoration: none;
-  }
- a:hover {
-    color:red;
-    text-decoration: none;
- } 
- /*   height: 630px;
-    width: 1120px; 8*/
