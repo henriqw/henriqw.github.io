@@ -17,7 +17,7 @@ body {
 }
 .title {
  font-family: 'Courier New', Courier, monospace;
- font-size: xxx-large;
+ font-size: 2vw;
 }
 a {
     text-decoration: none;
@@ -31,14 +31,14 @@ a:visited{
     display: block;
     margin: 0.2vw 0.2vw 0.2vw 4vw;
     padding: 0.5vw;
-    height: 168px;
-    width: 288px;
+    max-height: 168px;
+    max-width: 288px;
     border: var(--Border);
     float: left;
     background-image: var(--Gradient);
 }
 iframe {
-    padding: 10px 80px;
+    padding: 1vw 4vw;
     margin-right: 4vw;
     height: 800px;
     width: 1200px;
