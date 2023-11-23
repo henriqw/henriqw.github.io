@@ -3,14 +3,14 @@ body {
     color: whitesmoke;
     padding: 10px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: x-large;
     margin:auto;
 }
 
 
 .title {
- font-family: 'Courier New', Courier, monospace;
+ font-family: "Courier New", Courier, monospace;
  font-size: xxx-large;
 }
 

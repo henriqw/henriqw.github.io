@@ -6,7 +6,7 @@
     --ArticleColor:  lightgrey;
     --FooterColor: black;
     --BoxShadow: 4px 4px 16px;
-    --MainFont: '2P';
+    --MainFont: "2P";
 
 }
 
@@ -19,11 +19,11 @@
     position: relative;
 }
 @font-face {
-    font-family: '2P';
-    src: url('2P.ttf') format(truetype);
+    font-family: "2P";
+    src: url("2P.ttf") format(truetype);
 }
 h1 {
-    font-family: '2P'
+    font-family: "2P"
 }
 body{
     background-color: white;
@@ -36,7 +36,7 @@ header {
 #title{
     display: block;
     text-align: center;
-    font: 4vw '2P';
+    font: 4vw "2P";
     background-image: var(--TitleColor);
     text-shadow: 0 0 3vw white;
     padding-top: 3vw;
@@ -65,7 +65,7 @@ nav {
     display: inline-block;
     padding: 1vw;
     text-align: center;
-    font: 32px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 32px "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     width: 24%;
 }
 .nav-link:hover{
@@ -94,7 +94,7 @@ section {
   padding: 0.3vw 0.3vw;
   margin: 2vw 4vw;
   box-shadow: var(--BoxShadow);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 h2 {
     padding: 0vw 4vw;
@@ -143,7 +143,7 @@ hr {
     font-size: 4vw;
 }
 .clearfix::after {
-    content: '';
+    content: "";
     clear: both;
     display: table;
 }
