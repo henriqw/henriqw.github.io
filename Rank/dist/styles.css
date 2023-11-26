@@ -1,0 +1,13 @@
+* {
+    text-align: center;
+}
+img {
+    width: 40%;
+    height: auto;
+}
+.button {
+ width: 200px;
+ height: 120px;
+ background-color: lightgrey ;
+ color: black;
+}
