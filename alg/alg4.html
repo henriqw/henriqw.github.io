@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alg
-        
-    </title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Alg4</title>
 </head>
 <body>
     <script>
-        let worker = {}
-        worker.name = prompt('"Qual o seu Nome?"')
-        worker.wage = prompt('"Quanto é o seu Salário(Mensal)?"')
-        alert("Bem-Vindo, " + worker.name +"!!\n Sua TC esse ano é de: $" + worker.wage * 12)
+        let numbers = {
+            sum: function(){
+                return Number(this.x) + Number(this.y)
+            }
+        }
+        numbers.x = prompt('"Primeiro Número?"');
+        numbers.y = prompt('"Segundo Número?"');
+        document.write(`"A soma dos números é: ${numbers.sum().toPrecision().replace(".",",")}"`);
     </script>
 </body>
 </html>

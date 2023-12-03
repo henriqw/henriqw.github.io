@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Alg3</title>
 </head>
 <body>
     <script>
         let worker = {}
-        worker.name = prompt('"Qual o seu Nome?"')
-        worker.wage = prompt('"Quanto é o seu Salário(Mensal)?"')
-        alert("Bem-Vindo, " + worker.name +"!!\n Sua TC esse ano é de: $" + worker.wage * 12)
+        worker.name = prompt('"Qual o seu Nome?"');
+        worker.wage = prompt('"Quanto é o seu Salário(Mensal)?"');
+        document.write(`"Bem-Vindo, ${worker.name} !!\nSua TC esse ano é de: ${(worker.wage * 12).toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}"`);
     </script>
 </body>
 </html>

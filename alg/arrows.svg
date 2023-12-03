@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   enable-background="new 0 0 20 20"
+   height="48"
+   viewBox="0 0 20 20"
+   width="48"
+   fill="#000000"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="arrow.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true">
+    <sodipodi:guide
+       position="9.8529861,10.00921"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="g2">
+    <g
+       id="g1">
+      <rect
+         fill="none"
+         height="20"
+         width="20"
+         id="rect1"
+         x="0"
+         y="0" />
+    </g>
+  </g>
+  <g
+     id="g3"
+     style="fill:#dcdcdc;fill-opacity:1"
+     transform="translate(0.86127501)">
+    <polygon
+       points="4.59,3.41 11.17,10 4.59,16.59 6,18 14,10 6,2 "
+       id="polygon2"
+       style="fill:#dcdcdc;fill-opacity:1" />
+  </g>
+</svg>

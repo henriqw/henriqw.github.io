@@ -1,11 +1,10 @@
 let rankPoints;
 let mD10;
 let Rank;
-let mD10Wins;
+let mD10Wins = 0;
 
 rankPoints = 6666;
 Rank = calculateRank(rankPoints);
-window.innerWidth = 200
 
 function calculateRank(x){
     if (mD10 === true){
@@ -46,8 +45,10 @@ function showRangeValue (){
 }
 
 document.addEventListener("click", function(){
-    if (mD10Wins != 0 && mD10 != undefined ) {
-        document.querySelector("#message").innerHTML = "Tu é " + Rank;
+    if (mD10Wins > 0 && mD10 != undefined ) {
+        document.querySelector("#message").innerHTML = `Tu é ${Rank}`;
+    } else {
+        document.querySelector("#message").innerHTML = ``;
     }
 })
 

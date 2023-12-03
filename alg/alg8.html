@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alg8</title>
+</head>
+<body>
+    <script>
+        let calculator = {
+            twice: function(){
+                return (parseFloat(calculator.number) * 2).toPrecision()
+            },
+            thirdPart: function(){
+                return (parseFloat(calculator.number) / 3).toPrecision(6)
+            }
+        }
+        calculator.number = prompt('"Qual o Número a ser Processado?"');
+        calculator.number = calculator.number.replace(".",",")
+
+        document.write(`"O dobro de ${calculator.number} é ${calculator.twice().replace(".",",")}."<br>"A terça parte de ${calculator.number} é ${calculator.thirdPart().replace(".",",")}."`);
+    </script>
+</body>
+</html>

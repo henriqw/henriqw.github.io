@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alg3</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Alg5</title>
 </head>
 <body>
     <script>
-        let worker = {}
-        worker.name = prompt('"Qual o seu Nome?"')
-        worker.wage = prompt('"Quanto é o seu Salário(Mensal)?"')
-        alert("Bem-Vindo, " + worker.name +"!!\n Sua TC esse ano é de: $" + worker.wage * 12)
+        let grades = {
+            average: function(){
+                return (Number(this.x) + Number(this.y)) / 2
+            }
+        }
+        grades.x = prompt('"Primeira Nota?"');
+        grades.y = prompt('"Segunda Nota?"');
+        document.write(`"A sua média esse semestre foi de: ${grades.average().toFixed(2).replace(".",",")}"`);
     </script>
 </body>
 </html>

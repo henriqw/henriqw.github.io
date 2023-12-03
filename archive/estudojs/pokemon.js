@@ -69,3 +69,30 @@ do {
 //-= subtrair etc
 //++ incrementa 1
 //-- subtrai 1
+ //ternary
+ // let x = true
+ // x == true?verify = true:verify = false
+ /*
+let invoice = {
+        products: {
+            0: ["name0", 10.1],
+            1: ["name1", 12.23]
+        }
+}
+    for (let index in invoice.products){
+        let [productName, productPrice] = invoice.products[index]
+        console.log(`-${productName}, custa R$${productPrice}`)
+    }
+*/
+
+class Bolo{
+    constructor(Dough, Filling){
+        this.Dough = Dough
+        this.Filling = Filling
+    }
+}
+
+let Festa = new Bolo("Chocolate", "Brigadeiro")
+let Cenoura = new Bolo("Cenoura", "Nescau")
+
+console.log(Festa,"\n",Cenoura)

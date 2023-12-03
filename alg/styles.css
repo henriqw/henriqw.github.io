@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: rgb(28, 28, 46);
+    color: gainsboro;
+}
+main {
+    position: absolute;
+    bottom: 500px;
+}
+input {
+    background-color: rgb(22, 22, 36); 
+    margin: auto;
+    position: relative;
+    display: none;
+}
+.arrows {
+    width: 200px;
+    position: absolute;
+    left: 82%;
+    top: -80%;
+}
+#left {
+    transform: scaleX(-1);
+}
